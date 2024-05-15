@@ -253,8 +253,19 @@ body {
     padding: 10px;
 }
 
+.main-btns {
+    display: block;
+}
+
 .depozit {
     padding: 8px 15px;
+    font-size: 25px;
+    border: 2px solid #663931;
+    background: green;
+    border-radius: 15px;
+}
+.withdraw {
+    padding: 8px 20px;
     font-size: 25px;
     border: 2px solid #663931;
     background: green;
