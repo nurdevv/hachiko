@@ -16,7 +16,9 @@ const Accordion = () => {
     return (
         <div className="pages-content">
             <div className="accordion">
-                <div className="title">Feed Hachiko different foods and wait until she goes to the litter box to poop, then exchange the poop for TON tokens🐾</div>
+                <div className="title">Feed Hachiko different foods and wait until she goes to the litter box to poop,
+                    then exchange the poop for TON tokens🐾
+                </div>
                 {
                     data.map((item, i) => (
                         <div className='item'>
@@ -35,6 +37,7 @@ const Accordion = () => {
 
                 <p className='acc-endText'>To stay up to date with news, subscribe to our channel and chat</p>
             </div>
+            <div className='box'></div>
         </div>
     );
 };

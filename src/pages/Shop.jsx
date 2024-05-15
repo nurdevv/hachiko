@@ -41,6 +41,7 @@ const Shop = () => {
                         <div className="price">0.1 ton &gt; 0.2 ton</div>
                         <a className="dog-btn2" href="#"><img src={buy} alt=""/></a>
                     </div>
+                    <div className='box'></div>
                 </div>
             </div>
     );
